@@ -1,8 +1,3 @@
-
-
-
-
-
 getgenv().crosshair = {
 
     enabled = true,
@@ -10,10 +5,10 @@ getgenv().crosshair = {
     mode = 'mouse', -- center, mouse, custom
     position = Vector2.new(0,0), -- custom position
 
-    width = 2.2,
-    length = 11,
-    radius = 12,
-    color = Color3.(117, 119, 219),
+    width = 2.5,
+    length = 10,
+    radius = 11,
+    color = Color3.fromRGB(66, 84, 245),
 
     spin = true, -- animate the rotation
     spin_speed = 150,
